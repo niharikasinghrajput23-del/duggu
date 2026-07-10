@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Memory Gallery ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+body{
+background:#0b0b0b;
+font-family:Georgia,serif;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+h1{
+color:gold;
+margin-bottom:40px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+max-width:1000px;
+margin:auto;
+}
+
+.frame{
+
+background:#222;
+padding:15px;
+border:8px solid gold;
+border-radius:12px;
+transition:.4s;
+
+}
+
+.frame:hover{
+
+transform:scale(1.05);
+
+}
+
+.frame img{
+
+width:100%;
+height:260px;
+object-fit:cover;
+border-radius:5px;
+
+}
+
+.caption{
+
+margin-top:15px;
+font-size:18px;
+
+}
+
+button{
+
+margin-top:50px;
+padding:15px 35px;
+font-size:20px;
+background:gold;
+border:none;
+border-radius:40px;
+cursor:pointer;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>📸 Memory Gallery</h1>
+
+<div class="gallery">
+
+<div class="frame">
+
+<img src="https://picsum.photos/300/400?1">
+
+<div class="caption">
+
+Our First Memory ❤️
+
+</div>
+
+</div>
+
+<div class="frame">
+
+<img src="https://picsum.photos/300/400?2">
+
+<div class="caption">
+
+One of My Favourite Days
+
+</div>
+
+</div>
+
+<div class="frame">
+
+<img src="https://picsum.photos/300/400?3">
+
+<div class="caption">
+
+Every Smile Has A Story
+
+</div>
+
+</div>
+
+<div class="frame">
+
+<img src="https://picsum.photos/300/400?4">
+
+<div class="caption">
+
+Forever Starts Here
+
+</div>
+
+</div>
+
+</div>
+
+<button onclick="window.location.href='hall4.html'">
+
+Next →
+
+</button>
+
+</body>
+</html>
