@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hall 2 - Our First Conversation ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+body{
+background:#0d0d0d;
+font-family:Arial,sans-serif;
+color:white;
+}
+
+.chat-container{
+width:90%;
+max-width:700px;
+margin:40px auto;
+}
+
+.heading{
+text-align:center;
+color:gold;
+font-size:45px;
+margin-bottom:30px;
+}
+
+.chat{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.left,.right{
+padding:15px;
+border-radius:20px;
+width:fit-content;
+max-width:70%;
+font-size:20px;
+animation:fade .8s;
+}
+
+.left{
+background:#2b2b2b;
+}
+
+.right{
+background:#FFD700;
+color:black;
+margin-left:auto;
+}
+
+button{
+
+margin:40px auto;
+display:block;
+padding:15px 35px;
+font-size:20px;
+background:gold;
+border:none;
+border-radius:40px;
+cursor:pointer;
+
+}
+
+button:hover{
+
+transform:scale(1.05);
+
+}
+
+@keyframes fade{
+
+from{
+opacity:0;
+transform:translateY(20px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="chat-container">
+
+<div class="heading">
+
+💬 Our First Conversation
+
+</div>
+
+<div class="chat">
+
+<div class="left">
+Hii 😊
+</div>
+
+<div class="right">
+Hello ❤️
+</div>
+
+<div class="left">
+Busy ho?
+</div>
+
+<div class="right">
+Tumhare liye kabhi nahi.
+</div>
+
+<div class="left">
+Can we be friends?
+</div>
+
+<div class="right">
+Already feeling like we are. ❤️
+</div>
+
+</div>
+
+<button onclick="nextHall()">
+
+Next Memory →
+
+</button>
+
+</div>
+
+<script>
+
+function nextHall(){
+
+window.location.href="hall3.html";
+
+}
+
+</script>
+
+</body>
+
+</html>
