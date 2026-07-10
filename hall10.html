@@ -1,90 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>The End ❤️</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forever ❤️</title>
 
 <link rel="stylesheet" href="style.css">
 
 <style>
-
 body{
-
-background:black;
-
+background:linear-gradient(to bottom,#000,#090909,#111);
 display:flex;
-
 justify-content:center;
-
 align-items:center;
-
 height:100vh;
-
-font-family:Georgia;
-
-color:white;
-
-text-align:center;
-
 overflow:hidden;
+text-align:center;
+}
 
+.container{
+animation:fade 2s;
 }
 
 h1{
-
-font-size:55px;
-
+font-size:60px;
 color:gold;
-
-animation:fade 2s infinite alternate;
-
-}
-
-@keyframes fade{
-
-from{
-
-opacity:.4;
-
-}
-
-to{
-
-opacity:1;
-
-}
-
 }
 
 p{
-
-font-size:24px;
-
+font-size:22px;
+margin-top:20px;
 }
 
+.heart{
+font-size:80px;
+animation:beat 1s infinite;
+}
+
+@keyframes beat{
+50%{transform:scale(1.2);}
+}
+
+@keyframes fade{
+from{opacity:0;}
+to{opacity:1;}
+}
 </style>
 
 </head>
 
 <body>
 
-<div>
+<div class="container">
 
-<h1>❤️ The Museum Ends Here ❤️</h1>
+<div class="heart">❤️</div>
+
+<h1>Thank You, Duggu</h1>
 
 <p>
 
-But our story doesn't...
-
-Thank you for being my favourite person.
+The museum ends here...
 
 <br><br>
 
-Forever Yours ❤️
+But our love story is just beginning.
+
+<br><br>
+
+I Love You Forever ❤️
 
 </p>
 
 </div>
 
 </body>
+
 </html>
