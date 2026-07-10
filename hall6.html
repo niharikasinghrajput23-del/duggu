@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gift ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+body{
+
+background:black;
+
+color:white;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+height:100vh;
+
+font-family:Georgia;
+
+text-align:center;
+
+}
+
+.gift{
+
+font-size:150px;
+
+cursor:pointer;
+
+transition:.4s;
+
+}
+
+.gift:hover{
+
+transform:scale(1.1);
+
+}
+
+#message{
+
+display:none;
+
+margin-top:30px;
+
+font-size:30px;
+
+color:gold;
+
+}
+
+button{
+
+margin-top:40px;
+
+padding:15px 35px;
+
+font-size:20px;
+
+background:gold;
+
+border:none;
+
+border-radius:30px;
+
+cursor:pointer;
+
+display:none;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+<div class="gift" onclick="openGift()">
+
+🎁
+
+</div>
+
+<div id="message">
+
+You are my favourite gift. ❤️
+
+</div>
+
+<button id="next" onclick="window.location.href='hall7.html'">
+
+Continue →
+
+</button>
+
+</div>
+
+<script>
+
+function openGift(){
+
+document.getElementById("message").style.display="block";
+
+document.getElementById("next").style.display="inline-block";
+
+}
+
+</script>
+
+</body>
+</html>
